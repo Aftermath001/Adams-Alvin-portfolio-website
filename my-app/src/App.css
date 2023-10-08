@@ -326,7 +326,18 @@ h3{
 }
 
 
-
-
-
 /* Skills Section Ends Herer */
+
+/* About Me */
+.about-section{
+  display: grid;
+  padding: 133.33px 85.3px;
+  align-items: center;
+  gap: 100px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.about-section-img > img {
+  width: 40%;
+  height: 30%;
+}
+/* About Me Ends Here */
