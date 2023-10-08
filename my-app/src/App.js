@@ -1,14 +1,25 @@
 
 import './App.css';
 import React from 'react';
-import {BrowserRouter, Router, Route, Routes} from "react-router-dom";
-import Home from "./Pages/Home/HomeScreen/Index"
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Home from "./Pages/Home/HomeScreen/Index";
+import Navbar from './Pages/Home/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-     <Home/>
+   <Router>
+        <div>
+          <Navbar />
+         
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="*" element={<div> 404 NOT FOUND</div>}></Route>
+          </Routes>
+        </div>
+      </Router>
+    
     </div>
   );
 }

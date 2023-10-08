@@ -1,0 +1,28 @@
+{
+    "skills" : [
+        {
+            "id" : 1,
+            "src" : "./images/product-chain-1.png",
+            "title" : "Front-End" ,
+            "description" : "loremkxsanxscbwuSHkjCNWDBHUS kj",
+        },
+        {
+            "id" : 2,
+            "src" : "./images/tag-1.png",
+            "title" : "Front-End" ,
+            "description" : "loremkxsanxscbwuSHkjCNWDBHUS kj",
+        },
+        {
+            "id" : 3,
+            "src" : "./images/feather-pen-2.png",
+            "title" : "Front-End" ,
+            "description" : "loremkxsanxscbwuSHkjCNWDBHUS kj",
+        },
+        {
+            "id" : 4,
+            "src" : "./images/feather-pen-1.png",
+            "title" : "Front-End" ,
+            "description" : "loremkxsanxscbwuSHkjCNWDBHUS kj",
+        }
+    ]
+}
