@@ -24,5 +24,28 @@
             "title" : "Webflow Development" ,
             "description" : "loremkxsanxscbwuSHkjCNWDBHUS kj"
         }
-    ]
+    ],
+    "portfolio": [
+        {
+          "id": "1",
+          "src": "./images/placeholder-image.png",
+          "title": "Ahuse",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+          "link": "View In Github"
+        },
+        {
+          "id": "2",
+          "src": "./images/placeholder-image-1.png",
+          "title": "App Dashboard",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+          "link": "View In Github"
+        },
+        {
+          "id": "3",
+          "src": "./images/placeholder-image-2.png",
+          "title": "Easy Rentn",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+          "link": "View In Github"
+        }
+      ]
 }
