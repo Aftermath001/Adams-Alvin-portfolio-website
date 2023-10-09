@@ -45,7 +45,8 @@ function MyPortfolio() {
                             <p className='text-md'>{item.description}</p>
 
                         </div>
-                        <p className="text-sm portfolio--link">
+                        <a href={item.link }><button>View </button></a>
+                        {/* <p className="text-sm portfolio--link">
                 {item.link}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +63,7 @@ function MyPortfolio() {
                     stroke-linejoin="round"
                   />
                 </svg>
-              </p>
+              </p> */}
                     </div>
                      </div>
             ) )}

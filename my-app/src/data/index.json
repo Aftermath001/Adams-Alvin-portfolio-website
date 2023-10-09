@@ -28,49 +28,46 @@
     "portfolio": [
         {
           "id": "1",
-          "src": "./images/placeholder-image.png",
-          "title": "Ahuse",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "src": "./images/portfolio.png",
+          "title": "Portfolio Websites",
+          "description": "Get ahead of others with the best portfolio websites to get you that dream job",
+          "link": "https://extraordinary-beijinho-5ec5e4.netlify.app/"
         },
         {
           "id": "2",
-          "src": "./images/placeholder-image-1.png",
+          "src": "./images/Ireporter.png",
           "title": "App Dashboard",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "description": "As corruption has sank its roots in today's society. Let's all join hands to fight corruption through IReporter",
+          "link": "https://ireporter-full-app.onrender.com/"
         },
         {
           "id": "3",
-          "src": "./images/placeholder-image-2.png",
-          "title": "Easy Rentn",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "link": "View In Github"
+          "src": "./images/ecommerce.jpeg",
+          "title": "Ecommerce Web Applications",
+          "description": "Boost your business with the  best and most user-friendly web application",
+          "link": "https://phase2-challege1.vercel.app/"
         }
       ],"testimonial": [
         {
           "id": "1",
           "count": "5",
-          "src": "./img/avatar-image.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "author_name": "Dianne Russel",
-          "author_designation": "Starbucks"
+          "description": "My job hunt has been made easier. Thank you very much",
+          "author_name": "Agatha",
+          "author_designation": "Educator"
         },
         {
           "id": "2",
           "count": "5",
-          "src": "./img/avatar-image-1.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "author_name": "Kristin Watson",
-          "author_designation": "Louis Vuitton"
+          "description": "Cases of corruption have been cut down thanks to Ireporter",
+          "author_name": "Victoria",
+          "author_designation": "HR Manager"
         },
         {
           "id": "3",
           "count": "5",
-          "src": "./img/avatar-image-2.png",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-          "author_name": "Kathryn Murphy",
-          "author_designation": "McDonald's"
+          "description": "My clients are now satisfied and taken care of 24/7",
+          "author_name": "Christian",
+          "author_designation": "Businessperson"
         }
       ]
 }

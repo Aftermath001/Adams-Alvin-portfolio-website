@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 function HeroSection() {
   return (
@@ -18,7 +19,15 @@ function HeroSection() {
                     I am skilled in multiple programming languages and have a proven track record of delivering high-quality, efficient, and reliable software products. 
                 </p>
             </div>
+            <Link
+             smooth={true}
+             offset={-70}
+             duration={500}
+             to="Contact"
+
+            >
             <button className='btn btn-primary'>Get In Touch</button>
+            </Link>
         </div>
         <div className='hero-secttion-image'>
             <img src='./images/Bg.png' alt='Hero Section'/>
