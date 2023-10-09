@@ -5,6 +5,7 @@ import AboutMe from "../AboutMe";
 import MyPortfolio from "../MyPortfolio";
 import Testimonials from "../Testimonials";
 import Contact from "../Contact";
+import Footer from "../Footer";
 
  
 function Index() {
@@ -16,6 +17,7 @@ function Index() {
    <MyPortfolio />
    <Testimonials/>
    <Contact />
+   <Footer />
    </>
   )
 }
