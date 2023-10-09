@@ -1,5 +1,5 @@
 import React from 'react'
-
+import CV from '../../Docs/CV.pdf'
 function AboutMe() {
   return (
    <section id='AboutMe' className='about-section'>
@@ -20,6 +20,9 @@ function AboutMe() {
             <p className='hero-section-description'>
             With positive attitude and drive, I am poised for a bright future in software development . 
             </p>
+            <a href={CV} download>
+            <button className='btn btn-primary'>Download CV</button>
+            </a>
         </div>
     </div>
    </section>

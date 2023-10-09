@@ -1,6 +1,21 @@
 import React from 'react'
-
+import emailjs from "emailjs-com";
+import { useState, useRef} from "react";
 function Contact() {
+  const form = useRef();
+  const [done, setDone] =useState(false)
+  const sendEmail = (e) => {
+  
+    e.preventDefault();
+
+    emailjs.sendForm('service_it0kd6b', 'template_tj9axsp', form.current, 'kdQ3B-blgmyeOVh_s')
+      .then((result) => {
+          console.log(result.text);
+             setDone(true)
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <section id="Contact" className="contact-section">
       <div>
@@ -10,7 +25,7 @@ function Contact() {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, odit.
         </p>
       </div>
-      <form className="contact-form-container">
+      <form className="contact-form-container" ref ={form} onSubmit={sendEmail}  >
         <div className="container">
           <label htmlFor="first-name" className="contact-label">
             <span className="text-md">First Name</span>
@@ -57,9 +72,9 @@ function Contact() {
           <span className="text-md">Choose a topic</span>
           <select id="choose-topic" className="contact-input text-md">
             <option>Select One...</option>
-            <option>Item 1</option>
-            <option>Item 2</option>
-            <option>Item 3</option>
+            <option>UI/UX Design</option>
+            <option>Web Development</option>
+            <option>Web Maintenance</option>
           </select>
         </label>
         <label htmlFor="message" className="contact-label">
