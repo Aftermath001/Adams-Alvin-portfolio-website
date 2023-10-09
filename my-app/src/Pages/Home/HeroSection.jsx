@@ -11,9 +11,11 @@ function HeroSection() {
                     Developer
                 </h1>
                 <p className='hero-section-description'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    
+                    As a software engineer, I possess a strong foundation in computer science and programming concepts, 
+                    combined with extensive hands-on experience developing software solutions for diverse industries.
                     <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quam perferendis quisquam! Aliquam, consequuntur.
+                    I am skilled in multiple programming languages and have a proven track record of delivering high-quality, efficient, and reliable software products. 
                 </p>
             </div>
             <button className='btn btn-primary'>Get In Touch</button>

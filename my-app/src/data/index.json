@@ -4,25 +4,25 @@
             "id" : 1,
             "src" : "./images/product-chain-1.png",
             "title" : "Front-End" ,
-            "description" : "loremkxsanxscbwuSHkjCNWDBHUS kj"
+            "description" : " I have honed my skills in front end development while working on various projects that demanded both creativity and technical proficiency. My toolkit encompasses HTML, CSS3, JavaScript, and popular front-end frameworks such as React.js."
         },
         {
             "id" : 2,
             "src" : "./images/tag-1.png",
             "title" : "Back-End" ,
-            "description" : "loremkxsanxscbwuSHkjCNWDBHUS kj"
+            "description" : "I possess strong proficiency in backend development, particularly in Python and the Flask framework.My experience with Flask includes creating RESTful APIs, handling database interactions, and crafting clean and maintainable code."
         },
         {
             "id" : 3,
             "src" : "./images/feather-pen-2.png",
             "title" : "UI & UX Design" ,
-            "description" : "loremkxsanxscbwuSHkjCNWDBHUS kj"
+            "description" : "I excel in UI/UX design, leveraging platforms like Figma and Canva to craft visually engaging and user-centric interfaces. My proficiency in these tools allows me to swiftly translate concepts into polished prototypes and high-fidelity mockups"
         },
         {
             "id" : 4,
             "src" : "./images/feather-pen-1.png",
             "title" : "Webflow Development" ,
-            "description" : "loremkxsanxscbwuSHkjCNWDBHUS kj"
+            "description" : "My proficiency in creating responsive layouts, animations, and interactions within the Webflow platform allows me to craft engaging and user-friendly web experiences that align with design specifications."
         }
     ],
     "portfolio": [

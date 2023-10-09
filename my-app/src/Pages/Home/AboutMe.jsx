@@ -11,14 +11,14 @@ function AboutMe() {
             <p className='section-title'>About</p>
             <h1 className='hero-section-content-box'>About Me</h1>
             <p className='hero-section-description'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi incidunt 
-                temporibus asperiores similique, iste dignissimos tempore. Eum praesentium 
-                ratione perspiciatis!
+                
+                I am junior software developer with a passion for coding and a strong desire to learn and grow in the field. 
+                My enthusiasm for solving complex problems and  dedication to writing clean, efficient code make me a valuable asset to any development team. 
+                I pay attention to detail and have the willingness to collaborate with senior developers demonstrate my commitment to honing my skills and contributing to the success of software projects. 
+                
             </p>
             <p className='hero-section-description'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi incidunt 
-                temporibus asperiores similique, iste dignissimos tempore. Eum praesentium 
-                ratione perspiciatis!
+            With positive attitude and drive, I am poised for a bright future in software development . 
             </p>
         </div>
     </div>
