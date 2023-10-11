@@ -45,7 +45,7 @@ function MyPortfolio() {
                             <p className='text-md'>{item.description}</p>
 
                         </div>
-                        <a href={item.link }><button>View </button></a>
+                        <a href={item.link }><button className="btn btn-outline-primary">View </button></a>
                         {/* <p className="text-sm portfolio--link">
                 {item.link}
                 <svg
