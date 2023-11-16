@@ -850,7 +850,7 @@ input[type="checkbox"] {
 }
 /* Contact End  Here*/
 /* Footer Start */
-/* Footer Starts */
+
 .footer-container {
   display: flex;
   padding: 106.667px 85.333px;
@@ -903,6 +903,9 @@ input[type="checkbox"] {
   font-weight: 400;
   line-height: 28px;
 }
+/* Footer Ends Here */
+
+
 
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
@@ -1041,7 +1044,7 @@ input[type="checkbox"] {
 @media screen and (max-width: 1200px) {
   .nav__hamburger {
     display: flex;
-    z-index: 200;
+    /* z-index: 200; */
   }
   .navbar-items {
     display: flex;

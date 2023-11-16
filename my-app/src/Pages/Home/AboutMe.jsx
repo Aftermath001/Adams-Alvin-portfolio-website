@@ -8,7 +8,7 @@ function AboutMe() {
     </div>
     <div className='hero-section-content-section-box-about-section-box'>
         <div className='hero-section-content'>
-            <p className='section-title'>About</p>
+            <p className='section-title'>Here's more about me</p>
             <h1 className='hero-section-content-box'>About Me</h1>
             <p className='hero-section-description'>
                 
@@ -18,7 +18,7 @@ function AboutMe() {
                 
             </p>
             <p className='hero-section-description'>
-            With positive attitude and drive, I am poised for a bright future in software development . 
+              With positive attitude and drive, I am poised for a bright future in software development . 
             </p>
             <a href={CV} download>
             <button className='btn btn-primary'>Download CV</button>
