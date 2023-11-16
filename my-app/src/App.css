@@ -84,6 +84,15 @@ btn{
   color: var(--github);
   background-color: var(--white);
 }
+.demo{
+  color: #000000;
+  background-color:#5e3bee;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+}
 
 /* Global Css Ends Here */
 
