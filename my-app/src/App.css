@@ -579,12 +579,33 @@ h2 {
   line-height: 36px;
 }
 .hero--section--img {
-  display: flex;
+  /* display: flex; */
+  background: url(../public/images/profilepic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 9px rgb(255, 255, 255 / 30%);
+  order: 1;
+  justify-self: center;
+  width:300px;
+  height:400px;
+  animation: profile_animate 8s ease-in-out infinite 1s;
 }
-.hero--section--img > img {
+@keyframes profile_animate {
+  0% {
+    border-radius:60% 40% 30% 70%/60% 30% 70% 40% ;
+  }
+  50% {
+    border-radius:30% 60% 70% 40%/50% 60% 30% 60% ;
+  }
+  100% {
+    border-radius:60% 40% 30% 70%/60% 30% 70% 40% ;
+  }
+}
+/* .hero--section--img > img {
   width: 100%;
   height: 100%;
-}
+} */
 /* Hero Section Style Ends */
 
 /* Skills Section Style */
@@ -918,7 +939,7 @@ input[type="checkbox"] {
 
 /* Responsive Screens */
 @media only screen and (max-width: 1800px) {
-  .hero-section-title {
+  .hero--section--title {
     font-size: 68px;
     line-height: 70px;
   }
@@ -956,13 +977,13 @@ input[type="checkbox"] {
   .btn-outline-primary {
     display: none;
   }
-  .hero-section {
+  .hero--section {
     display: flex;
     flex-direction: column-reverse;
     padding-bottom: 70px;
   }
-  .hero-section-title,
-  .hero-section-description,
+  .hero--section--title,
+  .hero--section--description,
   .footer-content {
     text-align: center;
   }
@@ -978,8 +999,8 @@ input[type="checkbox"] {
   }
   .skills-section,
   .portfolio-container,
-  .hero-section-content,
-  .hero-section-content-box {
+  .hero--section--content,
+  .hero--section--content--box {
     align-items: center;
   }
   .portfolio-container-box {
@@ -1001,13 +1022,13 @@ input[type="checkbox"] {
   .testimonial-section-card {
     padding: 25px;
   }
-  .hero-section-title,
+  .hero--section--title,
   .skills-section-heading,
   .sections-heading {
     font-size: 35px;
     line-height: 40px;
   }
-  .hero-section-content-box {
+  .hero--section--content--box {
     gap: 10px;
   }
   .contact-form-container {

@@ -28,24 +28,24 @@
     "portfolio": [
         {
           "id": "1",
-          "src": "./images/portfolio.png",
-          "title": "Portfolio Websites",
-          "description": "Get ahead of others with the best portfolio websites to get you that dream job",
-          "link": "https://extraordinary-beijinho-5ec5e4.netlify.app/"
+          "src": "./images/renderhelp.jpg",
+          "title": "Remind Helper",
+          "description": "Remind Helper provides an automatic telephone call reminder service that is proven to significantly increase the likelihood of patients taking their medicine as prescribed by their doctors",
+          "link": "https://www.remindhelper.com/"
         },
         {
           "id": "2",
           "src": "./images/Ireporter.png",
-          "title": "App Dashboard",
+          "title": "IReporter",
           "description": "As corruption has sank its roots in today's society. Let's all join hands to fight corruption through IReporter",
           "link": "https://ireporter-full-app.onrender.com/"
         },
         {
           "id": "3",
-          "src": "./images/ecommerce.jpeg",
-          "title": "Ecommerce Web Applications",
-          "description": "Boost your business with the  best and most user-friendly web application",
-          "link": "https://phase2-challege1.vercel.app/"
+          "src": "./images/homebase.png",
+          "title": "Homebase.IO",
+          "description": "Housing Base is the first online affordable housing rental marketplace, revolutionizing the affordable housing search process by empowering families to find homes based on their unique needs.",
+          "link": "https://housingbase.io/"
         }
       ],"testimonial": [
         {
