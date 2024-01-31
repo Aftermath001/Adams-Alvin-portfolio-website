@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../Docs/CV.pdf'
+import CV from '../../Docs/ADAMS.WORK-CV.pdf'
 function AboutMe() {
   return (
    <section id='AboutMe' className='about-section'>
