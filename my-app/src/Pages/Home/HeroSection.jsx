@@ -13,7 +13,7 @@ function HeroSection() {
                 </h1>
                 <p className='hero--section--description'>
                     
-                    As a software engineer, I possess a strong foundation in computer science and programming concepts, 
+                    As a software engineer, I possess a strong foundation in programming concepts, 
                     combined with extensive hands-on experience developing software solutions for diverse industries.
                     <br />
                     I am skilled in multiple programming languages and have a proven track record of delivering high-quality, efficient, and reliable software products. 
