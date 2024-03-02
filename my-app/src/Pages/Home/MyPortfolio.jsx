@@ -1,7 +1,7 @@
 import React from 'react'
 // import Index from './HomeScreen/Index'
 import data from "../../data/index.json";
-
+import {Link} from 'react-router-dom'
 
 function MyPortfolio() {
   return (
@@ -13,7 +13,8 @@ function MyPortfolio() {
 
             </div>
             <div>
-            <button className="btn btn-github">
+           <Link to="https://github.com/Aftermath001">
+           <button className="btn btn-github">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="32"
@@ -29,7 +30,7 @@ function MyPortfolio() {
               />
             </svg>
             Visit My GitHub
-          </button>
+          </button></Link>
          </div>
         </div>
         <div className='portfolio-section-container'>
