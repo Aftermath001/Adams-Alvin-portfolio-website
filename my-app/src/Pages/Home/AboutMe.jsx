@@ -22,7 +22,7 @@ function AboutMe() {
               With now the world's fast growth in technology, I won't agree to be left behind. 
             </p>
             <a href={CV} download>
-            <button className='btn btn-primary'>Download CV</button>
+            <button className='btn btn-primary'> Download CV</button>
             </a>
         </div>
     </div>
